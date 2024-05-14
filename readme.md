@@ -32,4 +32,6 @@ creo un loop for con indice da 0 a numeroUtente
 
 Crea due array che hanno un numero di elementi diversi.
 Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
-    
+    creo due array con dei numeri, uno diverso dall'altro
+        creo un ciclo for con l'indice che parte dalla lunghezza dell'array minore e arriva alla lunghezza dell'array maggiore
+            per ogni iterazione del ciclo for, pusho nell'array minore un numero random
