@@ -18,4 +18,6 @@ for (i=0;i<userNum;i++){
     nums.push(newNum);
 }
 
-console.log(nums.slice(-5));
+const userSlice=Number.parseInt(prompt("enter a new number"), 10);
+
+console.log(nums.slice(-(userSlice)));
