@@ -10,8 +10,8 @@ Fasi
 3. verificare se nell'array di frutta c'è il cocomero:
    - se c'è stampiamo: "Trovato! Devo solo preparare il cocktail."
    - se non lo trovo: "Oh no, devo uscire a comprare il cocomero!"
-        posso creare un ciclo che itera lungo gli array
-            se l'elemento con indice è uguale alla stringa "cocomero" allora stampo esito positivo
+        posso creare un ciclo che itera lungo gli array, in caso di match con la stringa "cocomero" assegno un valore ad una variabile definita precedentemente
+            se la variabile contiene quel valore, allora stampo esito positivo
             altrimenti stampo esito negativo
 
 ********************************************************************************************************************
