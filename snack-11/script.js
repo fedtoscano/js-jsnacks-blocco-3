@@ -7,7 +7,7 @@ let sum = 0
 while(sum<50){
     const userNum = Number.parseInt(prompt("Type a number"),10);
     while(isNaN(userNum)){
-        const userNum = Number.parseInt(prompt("Type a number"),10);
+        userNum = Number.parseInt(prompt("Type a number"),10);
     }
     arr.push(userNum);
     sum+=userNum;
