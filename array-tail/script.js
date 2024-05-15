@@ -14,8 +14,9 @@ const nums=[];
 const userNum=Number.parseInt(prompt("enter a number"), 10);
 
 for (i=0;i<userNum;i++){
-    const newNum=Math.floor(Math.random()*100) + 1;
-    nums.push(newNum);
+    nums.push(Math.floor(Math.random()*100) + 1);
+    // const newNum=Math.floor(Math.random()*100) + 1;
+    // nums.push(newNum);
 }
 
 const userSlice=Number.parseInt(prompt("enter a new number"), 10);
