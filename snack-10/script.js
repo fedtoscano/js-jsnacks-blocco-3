@@ -17,7 +17,7 @@ if(arr1.length>arr2.length){
 
 while(shortArray.length<longArray.length){
     shortArray.push(Math.floor(Math.random()*10) +1);
-    console.log(shortArray.length, longArray.length);
+    console.log(`La lunghezza del primo array è ${shortArray.length}. Quella del secondo array è ${longArray.length}`);
 }
 
 console.log(shortArray, longArray);
