@@ -4,10 +4,10 @@
 const nums=[];
 
 while(nums.length<6){
-    const userNum = Number.parseInt(prompt("Type a number"),10)
+    const userNum = Number.parseInt(prompt("Type a number"),10);
     if(userNum%2===1){
-        nums.push(userNum)
-        console.log(`${userNum} has ben added to the array`)
+        nums.push(userNum);
+        console.log(`${userNum} has ben added to the array`);
     }
 }
-console.log(nums)
+console.log(nums);
