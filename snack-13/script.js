@@ -2,12 +2,10 @@
 
 function invertChar(num){
     let numString = num.toString();
-    // console.log(numString)
-
-    for(i=1; i<numString.length; i++){
-        const invertedNum=[]
-        invertedNum.push(numString[-i])
-        console.log(invertedNum)
+    const invertedNum= []
+    for(i=numString.length; i>=0; i--){
+        invertedNum.push(numString[i])
     }
+    console.log(invertedNum.join(""))
 
 }
