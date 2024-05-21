@@ -7,5 +7,4 @@ function invertChar(num){
         invertedNum.push(numString[i])
     }
     console.log(invertedNum.join(""))
-
 }
