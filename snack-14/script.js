@@ -7,13 +7,13 @@ let userSeconds = Number.parseInt(prompt("Type the number of seconds"), 10)
         userSeconds = Number.parseInt(prompt("Type the number of seconds"), 10)
     }
 
-    
+
 const timerFunc = setInterval(function (){
     timerDisplay.innerHTML(userSeconds)
     userSeconds--;
-}, 1000)
-
-if(userSeconds<=0){
+    
+    if(userSeconds<=0){
     clearInterval(timerFunc)
     console.log("Time has ended")
 }
+}, 1000)
