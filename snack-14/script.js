@@ -8,9 +8,10 @@ let userSeconds = Number.parseInt(prompt("Type the number of seconds"), 10)
     }
 
 
+timerDisplay.innerHTML = userSeconds
 const timerFunc = setInterval(function (){
-    timerDisplay.innerHTML(userSeconds)
     userSeconds--;
+timerDisplay.innerHTML = userSeconds
     
     if(userSeconds<=0){
     clearInterval(timerFunc)
