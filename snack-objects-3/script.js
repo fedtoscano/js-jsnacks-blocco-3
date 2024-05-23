@@ -17,11 +17,14 @@ const persone = [
     { nome: "Giulia", cognome: "Gallo", età: 17 }
 ];
 
-persone.forEach(persona => {
-    if(persona.età>18){
-        console.log(`${persona.nome} ${persona.cognome} ha ${persona.età} anni. Quindi può guidare`)
-    }else{
-        console.log(`${persona.nome} ${persona.cognome} ha ${persona.età} anni. Quindi non può guidare`)
-    }
-    
+// persone.forEach(persona => {
+//     if(persona.età>18){
+//         console.log(`${persona.nome} ${persona.cognome} ha ${persona.età} anni. Quindi può guidare`)
+//     }else{
+//         console.log(`${persona.nome} ${persona.cognome} ha ${persona.età} anni. Quindi non può guidare`)
+//     }
+// });
+
+const guidatori = persone.map((persona) => {
+    return `${persona.nome} ${persona.cognome} ${persona.età >= 18 ? "può guidare" : "non può guidare"}`;
 });
