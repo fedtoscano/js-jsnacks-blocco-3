@@ -28,3 +28,5 @@ const persone = [
 const guidatori = persone.map((persona) => {
     return `${persona.nome} ${persona.cognome} ${persona.età >= 18 ? "può guidare" : "non può guidare"}`;
 });
+
+console.log(guidatori)
