@@ -22,7 +22,7 @@ zucchine.forEach(zucchina => {
     somma += zucchina.peso
 
 });
-console.log(`La somma di tutte le zucchine è: ${somma.toFixed(2)}g`)
+console.log(`La somma del peso di tutte le zucchine è: ${somma.toFixed(2)}g`)
 
 
 const zucchineAssolutamenteNellaMedia = []
@@ -42,11 +42,11 @@ zucchineAssolutamenteNellaMedia.forEach(zucchina => {
     sommaZucchine += zucchina.peso
 
 });
-console.log(`La somma di tutte le zucchine nella media è: ${sommaZucchine.toFixed(2)}g`)
+console.log(`La somma del peso di tutte le zucchine nella media è: ${sommaZucchine.toFixed(2)}g`)
 
 let sommaZucchineDue=0
 zucchinGigantiOltremisura.forEach(zucchina => {
     sommaZucchineDue += zucchina.peso
 
 });
-console.log(`La somma di tutte le zucchine giganti è: ${sommaZucchineDue.toFixed(2)}g`)
+console.log(`La somma del peso di tutte le zucchine giganti è: ${sommaZucchineDue.toFixed(2)}g`)
