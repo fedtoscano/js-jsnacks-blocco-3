@@ -36,3 +36,17 @@ zucchine.map((zucchina) => {
 
 console.log(zucchineAssolutamenteNellaMedia)
 console.log(zucchinGigantiOltremisura)
+
+let sommaZucchine=0
+zucchineAssolutamenteNellaMedia.forEach(zucchina => {
+    sommaZucchine += zucchina.peso
+
+});
+console.log(`La somma di tutte le zucchine nella media è: ${sommaZucchine.toFixed(2)}g`)
+
+let sommaZucchineDue=0
+zucchinGigantiOltremisura.forEach(zucchina => {
+    sommaZucchineDue += zucchina.peso
+
+});
+console.log(`La somma di tutte le zucchine giganti è: ${sommaZucchineDue.toFixed(2)}g`)
